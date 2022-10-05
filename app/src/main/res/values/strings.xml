@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Chap5Top4</string>
+    <string name="indonesia">indonesia</string>
+    <string name="inggris">inggris</string>
+    <string name="pergi_ke_main_2">Pergi Ke Main 2</string>
+    <string name="pindah_ke_bahasa_indonesia">Pindah ke Bahasa Indonesia</string>
+    <string name="pindah_ke_bahasa_inggris">Pindah ke Bahasa Inggris</string>
+    <string name="password">password</string>
+</resources>

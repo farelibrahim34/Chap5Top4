@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnIndo"
+        style="@style/stylewarna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/indonesia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnIng"
+        style="@style/stylewarna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inggris"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIndo" />
+
+    <TextView
+        style="@style/styleteks"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="177dp"
+        android:text="@string/pergi_ke_main_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIng" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:endIconMode="password_toggle"
+        android:id="@+id/textField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radio_button_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textField">
+
+        <RadioButton
+            android:id="@+id/rdBtn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/pindah_ke_bahasa_indonesia" />
+
+        <RadioButton
+            android:id="@+id/rdBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/pindah_ke_bahasa_inggris" />
+
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

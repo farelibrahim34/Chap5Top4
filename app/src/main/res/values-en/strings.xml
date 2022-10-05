@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chap5Top4</string>
+    <string name="indonesia">Indonesian</string>
+    <string name="inggris">English</string>
+    <string name="pergi_ke_main_2">Go to Main 2</string>
+    <string name="pindah_ke_bahasa_indonesia">Switch To Indonesian</string>
+    <string name="pindah_ke_bahasa_inggris">Switch To English</string>
+    <string name="password">password</string>
+</resources>
